@@ -28,8 +28,8 @@ public:
         pchMessageStart[2] = 0x6f;
         pchMessageStart[3] = 0xbc;
         vAlertPubKey = ParseHex("04e41db2a8b8dc3981f819d46060875ce483bf303613b108e673d7bb636f7786bd0458e2ced6e8b337be32d024562f3e69776412b55a7210396ad7a9944812b445");
-        nDefaultPort = 18852;
-        nRPCPort = 18153;
+        nDefaultPort = 56588;
+        nRPCPort = 56688;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         nSubsidyHalvingInterval = 262800;
 
@@ -67,12 +67,12 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x7ae09c5155d40e046e7aa6fdeed6812947ad9b1e0bcd4549e449f047352a1ba1"));
 
         vSeeds.push_back(CDNSSeedData("54.201.217.235", "54.201.217.235"));
-//       vSeeds.push_back(CDNSSeedData("seed2.xedoscoin.org", "seed2.xedoscoin.org"));
- //       vSeeds.push_back(CDNSSeedData("seed3.xedoscoin.org", "seed3.xedoscoin.org"));
- //       vSeeds.push_back(CDNSSeedData("xedoscoin.zapto.org", "xedoscoin.zapto.org"));
- //       vSeeds.push_back(CDNSSeedData("xedoscoin.no-ip.org", "xedoscoin.no-ip.org"));
-//        vSeeds.push_back(CDNSSeedData("xedoscoin.strangled.net", "xedoscoin.strangled.net"));
-//        vSeeds.push_back(CDNSSeedData("xedoscoin.ignorelist.com", "xedoscoin.ignorelist.com"));
+//       vSeeds.push_back(CDNSSeedData("seed2.sidpabar.org", "seed2.sidpabar.org"));
+ //       vSeeds.push_back(CDNSSeedData("seed3.sidpabar.org", "seed3.sidpabar.org"));
+ //       vSeeds.push_back(CDNSSeedData("sidpabar.zapto.org", "sidpabar.zapto.org"));
+ //       vSeeds.push_back(CDNSSeedData("sidpabar.no-ip.org", "sidpabar.no-ip.org"));
+//        vSeeds.push_back(CDNSSeedData("sidpabar.strangled.net", "sidpabar.strangled.net"));
+//        vSeeds.push_back(CDNSSeedData("sidpabar.ignorelist.com", "sidpabar.ignorelist.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 74;
         base58Prefixes[SCRIPT_ADDRESS] = 17;
@@ -118,8 +118,8 @@ public:
         pchMessageStart[2] = 0x55;
         pchMessageStart[3] = 0x03;
         vAlertPubKey = ParseHex("0490ce131d0e51eacddb074906fc0be1990214ec9880c2da9bfc15d649236f211e3950670fee0c45f8ea00d425d84da61425778617ba73d64e1880abc4607de965");
-        nDefaultPort = 38152;
-        nRPCPort = 38153;
+        nDefaultPort = 38588;
+        nRPCPort = 38688;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
@@ -141,7 +141,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // vSeeds.push_back(CDNSSeedData("xedoscoin.test", "test.xedoscoin.org"));
+        // vSeeds.push_back(CDNSSeedData("sidpabar.test", "test.sidpabar.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 66;
         base58Prefixes[SCRIPT_ADDRESS] = 188;

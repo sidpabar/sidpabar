@@ -274,7 +274,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-56"/>
-        <source>Xedoscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
+        <source>Xedoscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sidpabars from being stolen by malware infecting your computer.</source>
         <translation>Xedoscoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
     </message>
     <message>
@@ -1068,7 +1068,7 @@ Inscriptio: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start xedoscoin: click-to-pay handler</source>
+        <source>Cannot start sidpabar: click-to-pay handler</source>
         <translation>Xedoscoin incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
 </context>
@@ -2196,8 +2196,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or xedoscoind</source>
-        <translation>Mitte mandatum ad -server vel xedoscoind</translation>
+        <source>Send command to -server or sidpabard</source>
+        <translation>Mitte mandatum ad -server vel sidpabard</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: xedoscoin.conf)</source>
-        <translation>Specifica configurationis plicam (praedefinitum: xedoscoin.conf)</translation>
+        <source>Specify configuration file (default: sidpabar.conf)</source>
+        <translation>Specifica configurationis plicam (praedefinitum: sidpabar.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: xedoscoind.pid)</source>
-        <translation>Specifica pid plicam (praedefinitum: xedoscoin.pid)</translation>
+        <source>Specify pid file (default: sidpabard.pid)</source>
+        <translation>Specifica pid plicam (praedefinitum: sidpabar.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,7 +2299,7 @@ Inscriptio: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=xedoscoinrpc
+rpcuser=sidpabarrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2310,7 +2310,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Xedoscoin Alert&quot; admin@fo
         <translation>%s, necesse est te rpcpassword constituere in plica configurationis:
 %s
 Hortatur te hanc fortuitam tesseram uti:
-rpcuser=xedoscoinrpc
+rpcuser=sidpabarrpc
 rpcpassword=%s
 (non est necesse te hanc tesseram meminisse)
 Nomen usoris et tessera eadem esse NON POSSUNT.

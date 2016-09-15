@@ -35,7 +35,7 @@ bool AppInit(int argc, char* argv[])
         //
         // Parameters
         //
-        // If Qt is used, parameters/xedoscoin.conf are parsed in qt/bitcoin.cpp's main()
+        // If Qt is used, parameters/sidpabar.conf are parsed in qt/bitcoin.cpp's main()
         ParseParameters(argc, argv);
         if (!boost::filesystem::is_directory(GetDataDir(false)))
         {
@@ -46,13 +46,13 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to xedoscoind / RPC client
+            // First part of help message is specific to sidpabard / RPC client
             std::string strUsage = _("Xedoscoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  xedoscoind [options]                     " + "\n" +
-                  "  xedoscoind [options] <command> [params]  " + _("Send command to -server or xedoscoind") + "\n" +
-                  "  xedoscoind [options] help                " + _("List commands") + "\n" +
-                  "  xedoscoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  sidpabard [options]                     " + "\n" +
+                  "  sidpabard [options] <command> [params]  " + _("Send command to -server or sidpabard") + "\n" +
+                  "  sidpabard [options] help                " + _("List commands") + "\n" +
+                  "  sidpabard [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -62,7 +62,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "xedoscoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "sidpabar:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -129,7 +129,7 @@ int main(int argc, char* argv[])
     bool fRet = false;
     fHaveGUI = false;
 
-    // Connect xedoscoind signal handlers
+    // Connect sidpabard signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);

@@ -23,10 +23,10 @@ BEGIN
             VALUE "CompanyName",        "Xedoscoin"
             VALUE "FileDescription",    "Xedoscoin-Qt (OSS GUI client for Xedoscoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "xedoscoin-qt"
+            VALUE "InternalName",       "sidpabar-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "xedoscoin-qt.exe"
+            VALUE "OriginalFilename",   "sidpabar-qt.exe"
             VALUE "ProductName",        "Xedoscoin-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

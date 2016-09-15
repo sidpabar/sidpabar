@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>Xedoscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
-        <translation>Xedoscoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista xedoscoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>Xedoscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sidpabars from being stolen by malware infecting your computer.</source>
+        <translation>Xedoscoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista sidpabaride vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1068,7 +1068,7 @@ Aadress: %4⏎</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start xedoscoin: click-to-pay handler</source>
+        <source>Cannot start sidpabar: click-to-pay handler</source>
         <translation>Xedoscoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
@@ -2196,8 +2196,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or xedoscoind</source>
-        <translation>Saada käsklus -serverile või xedoscoindile</translation>
+        <source>Send command to -server or sidpabard</source>
+        <translation>Saada käsklus -serverile või sidpabardile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: xedoscoin.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: xedoscoin.conf)</translation>
+        <source>Specify configuration file (default: sidpabar.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: sidpabar.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: xedoscoind.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: xedoscoin.pid)</translation>
+        <source>Specify pid file (default: sidpabard.pid)</source>
+        <translation>Täpsusta PID fail (vaikimisi: sidpabar.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,7 +2299,7 @@ Aadress: %4⏎</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=xedoscoinrpc
+rpcuser=sidpabarrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2310,7 +2310,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Xedoscoin Alert&quot; admin@fo
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
 Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=xedoscoinrpc
+rpcuser=sidpabarrpc
 rpcpassword=%s
 (seda parooli ei pea meeles pidama)
 Kasutajanimi ning parool EI TOHI kattuda.

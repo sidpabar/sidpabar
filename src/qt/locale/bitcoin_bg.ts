@@ -275,7 +275,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Xedoscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
+        <source>Xedoscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sidpabars from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1065,7 +1065,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start xedoscoin: click-to-pay handler</source>
+        <source>Cannot start sidpabar: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2193,7 +2193,7 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or xedoscoind</source>
+        <source>Send command to -server or sidpabard</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2213,12 +2213,12 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: xedoscoin.conf)</source>
+        <source>Specify configuration file (default: sidpabar.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: xedoscoind.pid)</source>
+        <source>Specify pid file (default: sidpabard.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2296,7 +2296,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=xedoscoinrpc
+rpcuser=sidpabarrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

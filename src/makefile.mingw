@@ -105,10 +105,10 @@ OBJS= \
     obj/chainparams.o \
     obj/skein.o
 
-all: xedoscoind.exe
+all: sidpabard.exe
 
-test check: test_xedoscoin.exe FORCE
-	test_xedoscoin.exe
+test check: test_sidpabar.exe FORCE
+	test_sidpabar.exe
 
 #
 # LevelDB support
@@ -125,7 +125,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(CFLAGS) -o $@ $<
     
-xedoscoind.exe: $(OBJS:obj/%=obj/%)
+sidpabard.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -136,11 +136,11 @@ obj-test/%.o: test/%.cpp $(HEADERS)
 obj-test/%.o: test/%.c $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
-test_xedoscoin.exe: $(TESTOBJS) $(filter-out obj/init.o obj/xedoscoind.o,$(OBJS:obj/%=obj/%))
+test_sidpabar.exe: $(TESTOBJS) $(filter-out obj/init.o obj/sidpabard.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework$(BOOST_SUFFIX) $(LIBS)
 
 clean:
-	rm -f xedoscoind.exe test_xedoscoin.exe
+	rm -f sidpabard.exe test_sidpabar.exe
 	rm -f obj/*
 	rm -f obj-test/*
 	cd leveldb && $(MAKE) TARGET_OS=NATIVE_WINDOWS clean && cd ..

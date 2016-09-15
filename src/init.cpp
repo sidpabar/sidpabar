@@ -166,8 +166,8 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
-    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: xedoscoin.conf)") + "\n";
-    strUsage += "  -pid=<file>            " + _("Specify pid file (default: xedoscoind.pid)") + "\n";
+    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: sidpabar.conf)") + "\n";
+    strUsage += "  -pid=<file>            " + _("Specify pid file (default: sidpabard.pid)") + "\n";
     strUsage += "  -gen                   " + _("Generate coins (default: 0)") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -wallet=<file>         " + _("Specify wallet file (within data directory)") + "\n";
@@ -177,7 +177,7 @@ std::string HelpMessage()
     strUsage += "  -socks=<n>             " + _("Select the version of socks proxy to use (4-5, default: 5)") + "\n";
     strUsage += "  -tor=<ip:port>         " + _("Use proxy to reach tor hidden services (default: same as -proxy)") + "\n";
     strUsage += "  -dns                   " + _("Allow DNS lookups for -addnode, -seednode and -connect") + "\n";
-    strUsage += "  -port=<port>           " + _("Listen for connections on <port> (default: 8333 or testnet: 18333)") + "\n";
+    strUsage += "  -port=<port>           " + _("Listen for connections on <port> (default: 56588 or testnet: 38588)") + "\n";
     strUsage += "  -maxconnections=<n>    " + _("Maintain at most <n> connections to peers (default: 125)") + "\n";
     strUsage += "  -addnode=<ip>          " + _("Add a node to connect to and attempt to keep the connection open") + "\n";
     strUsage += "  -connect=<ip>          " + _("Connect only to the specified node(s)") + "\n";

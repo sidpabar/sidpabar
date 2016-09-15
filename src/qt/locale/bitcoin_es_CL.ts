@@ -278,8 +278,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-56"/>
-        <source>Xedoscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
-        <translation>Xedoscoin se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus xedoscoins de ser robados por malware que infecte su computador</translation>
+        <source>Xedoscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sidpabars from being stolen by malware infecting your computer.</source>
+        <translation>Xedoscoin se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus sidpabars de ser robados por malware que infecte su computador</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -423,12 +423,12 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     <message>
         <location line="-347"/>
         <source>Send coins to a Xedoscoin address</source>
-        <translation>Enviar monedas a una dirección xedoscoin</translation>
+        <translation>Enviar monedas a una dirección sidpabar</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Xedoscoin</source>
-        <translation>Modifica las opciones de configuración de xedoscoin</translation>
+        <translation>Modifica las opciones de configuración de sidpabar</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1072,7 +1072,7 @@ Dirección: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start xedoscoin: click-to-pay handler</source>
+        <source>Cannot start sidpabar: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2200,8 +2200,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or xedoscoind</source>
-        <translation>Envia comando a xedoscoin lanzado con -server u xedoscoind
+        <source>Send command to -server or sidpabard</source>
+        <translation>Envia comando a sidpabar lanzado con -server u sidpabard
 </translation>
     </message>
     <message>
@@ -2224,14 +2224,14 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: xedoscoin.conf)</source>
-        <translation>Especifica archivo de configuración (predeterminado: xedoscoin.conf)
+        <source>Specify configuration file (default: sidpabar.conf)</source>
+        <translation>Especifica archivo de configuración (predeterminado: sidpabar.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: xedoscoind.pid)</source>
-        <translation>Especifica archivo pid (predeterminado: xedoscoin.pid)
+        <source>Specify pid file (default: sidpabard.pid)</source>
+        <translation>Especifica archivo pid (predeterminado: sidpabar.pid)
 </translation>
     </message>
     <message>
@@ -2313,7 +2313,7 @@ Dirección: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=xedoscoinrpc
+rpcuser=sidpabarrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
