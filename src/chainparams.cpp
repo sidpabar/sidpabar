@@ -74,7 +74,7 @@ public:
 //        vSeeds.push_back(CDNSSeedData("sidpabar.strangled.net", "sidpabar.strangled.net"));
 //        vSeeds.push_back(CDNSSeedData("sidpabar.ignorelist.com", "sidpabar.ignorelist.com"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = 74;
+        base58Prefixes[PUBKEY_ADDRESS] = 63;
         base58Prefixes[SCRIPT_ADDRESS] = 17;
         base58Prefixes[SECRET_KEY] = 228;
 
